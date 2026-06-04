@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "title": "Pathera — Yolculuğunu paylaş",
+    "description": "Pathera, konumunu, anılarını ve yolculuklarını senin için önemli olan insanlarla paylaşmanı sağlayan sosyal bir seyahat uygulaması."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "features": "Özellikler",
+    "about": "Hakkımızda",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "download": "App Store'dan indirin",
+    "menu": "Menü"
+  },
+  "store": {
+    "soonTooltip": "Mağaza linkleri yakında eklenecek"
+  },
+  "hero": {
+    "eyebrow": "Sosyal seyahat uygulaması",
+    "titleLead": "Yolculuğunu",
+    "titleAccent": "paylaş.",
+    "subtitle": "Pathera ile konumunu, anılarını ve rotanı paylaş. Dünyayı keşfet, anılarını sakla ve seyahat topluluğunla bağlantıda kal.",
+    "ctaPrimary": "Yakında App Store'da",
+    "ctaSecondary": "Yakında Google Play'de",
+    "badge": "Gezginler için tasarlandı. Anılar için üretildi.",
+    "pills": ["Canlı harita", "Anı akışı", "Gizlilik kontrolü"],
+    "screenAlt": "Pathera uygulama önizlemesi",
+    "mockup": {
+      "brand": "PATHERA",
+      "tagline": "Planla · Paylaş · Keşfet",
+      "search": "Nereye gitmek istersin?",
+      "chips": ["Sana özel", "Popüler", "Doğa"],
+      "mapTitle": "Dünya haritası",
+      "postPlace": "Santorini, Yunanistan",
+      "postMeta": "2 saat önce",
+      "likes": "847",
+      "comments": "124"
+    },
+    "dualPhone": {
+      "brand": "PATHERA",
+      "tabFriends": "Arkadaşlar",
+      "tabFollowing": "Takip Edilen",
+      "postLeft": {
+        "place": "Bali, Endonezya",
+        "time": "Bugün 18:45",
+        "likes": "32",
+        "comments": "7"
+      },
+      "postRight": {
+        "user": "@elaec",
+        "place": "Santorini, Yunanistan"
+      }
+    },
+    "phone": {
+      "storyYou": "Sen",
+      "friends": [
+        { "name": "Mehmet", "initials": "MY" },
+        { "name": "Zeynep", "initials": "ZA" },
+        { "name": "Can", "initials": "CD" }
+      ],
+      "post": {
+        "user": "Ayşe K.",
+        "initials": "AY",
+        "place": "Santorini, Yunanistan",
+        "time": "2 sa",
+        "likes": "248",
+        "comments": "32",
+        "caption": "Gün batımında harika bir an 🌅"
+      }
+    }
+  },
+  "stats": [
+    { "value": "2", "label": "Dil desteği" },
+    { "value": "∞", "label": "Keşfedilecek rota" },
+    { "value": "24/7", "label": "Anı paylaşımı" },
+    { "value": "Yakında", "label": "iOS & Android" }
+  ],
+  "features": {
+    "titleLead": "Her şey",
+    "titleAccent": "tek yerde",
+    "subtitle": "Seyahat planından anı paylaşımına — Pathera yolculuğunun merkezi.",
+    "items": [
+      {
+        "title": "Konumunu Paylaş",
+        "body": "Anlık konumunu haritada paylaş, arkadaşların nerede olduğunu tek bakışta gör."
+      },
+      {
+        "title": "Anlarını Paylaş",
+        "body": "Güzel anlarını paylaş, hikâyelerinle başkalarına ilham ver."
+      },
+      {
+        "title": "Bağlantıda Kal",
+        "body": "Mesajlaş, yorum yap ve nerede olursan ol önemli kişilerle etkileşimde kal."
+      },
+      {
+        "title": "Gizliliğin Önceliğimiz",
+        "body": "Verilerin ve gizliliğin her zaman korunur. Ne paylaşacağına sen karar verirsin."
+      },
+      {
+        "title": "Akıllı Rota Planlama",
+        "body": "Yapay zekâ destekli planlayıcı ile süre, ilgi alanı ve bütçene göre rotalar oluştur."
+      },
+      {
+        "title": "Keşfet ve İlham Al",
+        "body": "Popüler rotaları keşfet, yeni yerler bul ve diğer gezginlerden ilham al."
+      }
+    ]
+  },
+  "explore": {
+    "titleLead": "Keşfet. Paylaş.",
+    "titleAccent": "İlham Al.",
+    "body": "Pathera bir haritadan fazlası — senin hikâyen, anıların ve keşiflerin.",
+    "cta": "Daha Fazla Keşfet",
+    "cards": [
+      { "place": "Tokyo, Japonya", "user": "Ayşe K.", "time": "2 saat önce" },
+      { "place": "İsviçre Alpleri", "user": "Mehmet Y.", "time": "5 saat önce" },
+      { "place": "New York, ABD", "user": "Zeynep A.", "time": "1 gün önce" },
+      { "place": "İzlanda", "user": "Can D.", "time": "2 gün önce" }
+    ]
+  },
+  "ctaBand": {
+    "title": "Yolculuğuna hazır mısın?",
+    "subtitle": "Pathera ile seyahatini planla, anılarını paylaş ve toplulukla keşfet.",
+    "button": "Özellikleri keşfet"
+  },
+  "footer": {
+    "links": "Linkler",
+    "legal": "Yasal",
+    "follow": "Bizi Takip Edin",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "kvkk": "KVKK Aydınlatma Metni",
+    "comingSoon": "Yakında",
+    "copyright": "© 2026 Pathera. Tüm hakları saklıdır."
+  },
+  "theme": {
+    "light": "Açık",
+    "dark": "Koyu"
+  },
+  "home": {
+    "teasers": {
+      "titleLead": "Keşfet",
+      "titleAccent": "Pathera",
+      "items": {
+        "features": {
+          "label": "Özellikler",
+          "title": "Her şey tek yerde",
+          "body": "Konum, anılar, harita ve gizlilik."
+        },
+        "about": {
+          "label": "Hakkımızda",
+          "title": "Pathera kimdir?",
+          "body": "Yapay zeka destekli tatil planlama ve sosyal seyahat deneyimi."
+        },
+        "gallery": {
+          "label": "Galeri",
+          "title": "Dünyayı keşfet",
+          "body": "Gezginlerin paylaştığı rotalar."
+        },
+        "contact": {
+          "label": "İletişim",
+          "title": "Bize ulaş",
+          "body": "Destek ve iş birliği için bize yaz."
+        }
+      }
+    }
+  },
+  "pages": {
+    "features": {
+      "metaTitle": "Özellikler",
+      "metaDescription": "Pathera özellikleri — konum, anılar, mesajlaşma, gizlilik, rota planlama ve keşif.",
+      "heroTitle": "Özellikler",
+      "heroSubtitle": "Pathera, seyahat deneyimini daha planlı, daha sosyal ve daha unutulmaz hale getiren güçlü özellikler sunar.",
+      "cta": {
+        "title": "Seyahatini bir üst seviyeye taşı.",
+        "subtitle": "Pathera ile her yolculuk daha anlamlı.",
+        "button": "Hemen Keşfet"
+      },
+      "screens": {
+        "map": { "header": "Canlı Konum" },
+        "memories": { "header": "Anılar", "place": "Santorini, Yunanistan" },
+        "chat": {
+          "header": "Mesajlar",
+          "threads": [
+            { "name": "Ayşe K.", "preview": "Harika fotoğraflar!" },
+            { "name": "Mehmet Y.", "preview": "Yarın buluşalım mı?" },
+            { "name": "Zeynep A.", "preview": "Rotayı paylaştım" }
+          ]
+        },
+        "privacy": {
+          "header": "Gizlilik Ayarları",
+          "rows": [
+            { "label": "Konum paylaşımı", "on": true },
+            { "label": "Profil görünürlüğü", "on": true },
+            { "label": "Anı bildirimleri", "on": false }
+          ]
+        },
+        "route": {
+          "header": "Rota Planla",
+          "fields": ["Hedef", "Süre", "İlgi alanı", "Bütçe"],
+          "button": "Rota Oluştur"
+        },
+        "discover": {
+          "header": "Keşfet",
+          "search": "Destinasyon ara…",
+          "destinations": [
+            {
+              "name": "İsviçre Alpleri",
+              "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&q=85"
+            },
+            {
+              "name": "Kyoto",
+              "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=300&q=85"
+            }
+          ]
+        }
+      }
+    },
+    "about": {
+      "metaTitle": "Hakkımızda",
+      "metaDescription": "Pathera hakkında — yapay zeka destekli tatil planlama, sosyal etkileşim, misyon ve vizyon.",
+      "heroTitle": "Hakkımızda",
+      "heroSubtitle": "Yapay zeka destekli tatil planlama ve sosyal etkileşim — kişiselleştirilmiş rotalar, keşif ve paylaşım.",
+      "story": {
+        "title": "Hakkımızda",
+        "body": "Pathera, yapay zeka destekli tatil planlama ve sosyal etkileşim deneyimini bir araya getiren yeni nesil bir mobil uygulamadır. Kullanıcıların kişiselleştirilmiş seyahat planları oluşturmasına, keşifler yapmasına ve bu deneyimleri diğer kullanıcılarla paylaşmasına olanak tanır."
+      },
+      "valuesTitleLead": "Neden",
+      "valuesTitleAccent": "Pathera?",
+      "values": [
+        {
+          "title": "Canlı konum",
+          "body": "Anlık konumunu ve rotanı haritada paylaş; seyahatte kim nerede, tek bakışta."
+        },
+        {
+          "title": "Anı akışı",
+          "body": "Fotoğraf ve hikâyelerini paylaş; topluluğundan ilham al, başkalarına ilham ver."
+        },
+        {
+          "title": "Mesaj & topluluk",
+          "body": "Önemli kişilerle mesajlaş, yorum yap — yolculuk boyunca bağlantı kopmasın."
+        },
+        {
+          "title": "Gizlilik sende",
+          "body": "Konum, profil ve bildirim ayarlarını sen yönet; neyi kiminle paylaşacağını sen seç."
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Misyonumuz",
+          "body": "Seyahat planlamayı daha akıllı, hızlı ve erişilebilir hale getirmek. Pathera ile kullanıcıların yapay zeka desteğiyle zahmetsizce tatil planları oluşturmasını ve aynı zamanda sosyal bir platform üzerinden diğer gezginlerle etkileşime geçmesini sağlamak."
+        },
+        {
+          "title": "Vizyonumuz",
+          "body": "Dünyada seyahat deneyimini sadece planlama aşamasından çıkarıp, paylaşım ve etkileşim odaklı küresel bir topluluk haline getirmek. Pathera'nın hem yapay zeka tabanlı seyahat asistanı hem de gezginler için sosyal bir keşif platformu olarak standart haline gelmesi."
+        },
+        {
+          "title": "Yolculuğun başlıyor",
+          "body": "Pathera iOS ve Android için hazırlanıyor. Yakında App Store ve Google Play'de — bizi sosyal medyadan takip ederek gelişmelerden haberdar olabilirsin."
+        }
+      ],
+      "stats": [
+        { "value": "2", "label": "Dil desteği" },
+        { "value": "6+", "label": "Temel özellik" },
+        { "value": "24/7", "label": "Anı paylaşımı" },
+        { "value": "Yakında", "label": "iOS & Android" }
+      ],
+      "cta": {
+        "text": "Soruların mı var? Ekibimizle iletişime geç.",
+        "button": "İletişime geç"
+      }
+    },
+    "gallery": {
+      "metaTitle": "Galeri",
+      "metaDescription": "Pathera galeri — gezginlerin paylaştığı rotalar, anılar ve destinasyonlar.",
+      "heroTitle": "Galeri",
+      "heroSubtitle": "Dünyanın dört bir yanından gezginlerin paylaştığı anılar — keşfet, ilham al, kendi rotanı oluştur.",
+      "filterKeys": ["all", "nature", "city", "coast", "adventure"],
+      "filters": ["Tümü", "Doğa", "Şehir", "Sahil", "Macera"],
+      "categories": {
+        "nature": [
+          { "place": "İsviçre Alpleri", "user": "Mehmet Y.", "time": "2 saat önce", "tag": "Doğa" },
+          { "place": "Norveç Fiyordları", "user": "Ayşe K.", "time": "4 saat önce", "tag": "Doğa" },
+          { "place": "İzlanda", "user": "Burak T.", "time": "1 gün önce", "tag": "Doğa" },
+          { "place": "Yosemite, ABD", "user": "Can D.", "time": "1 gün önce", "tag": "Doğa" },
+          { "place": "Patagonya", "user": "Elif S.", "time": "2 gün önce", "tag": "Doğa" },
+          { "place": "Yedi Göller", "user": "Deniz M.", "time": "3 gün önce", "tag": "Doğa" }
+        ],
+        "city": [
+          { "place": "Tokyo, Japonya", "user": "Ayşe K.", "time": "1 saat önce", "tag": "Şehir" },
+          { "place": "New York, ABD", "user": "Zeynep A.", "time": "3 saat önce", "tag": "Şehir" },
+          { "place": "Paris, Fransa", "user": "Mehmet Y.", "time": "5 saat önce", "tag": "Şehir" },
+          { "place": "İstanbul", "user": "Selin A.", "time": "8 saat önce", "tag": "Şehir" },
+          { "place": "Dubai, BAE", "user": "Can D.", "time": "1 gün önce", "tag": "Şehir" },
+          { "place": "Singapur", "user": "Burak T.", "time": "2 gün önce", "tag": "Şehir" }
+        ],
+        "coast": [
+          { "place": "Santorini, Yunanistan", "user": "Zeynep A.", "time": "2 saat önce", "tag": "Sahil" },
+          { "place": "Bali, Endonezya", "user": "Selin A.", "time": "6 saat önce", "tag": "Sahil" },
+          { "place": "Maldivler", "user": "Ayşe K.", "time": "12 saat önce", "tag": "Sahil" },
+          { "place": "Amalfi, İtalya", "user": "Mehmet Y.", "time": "1 gün önce", "tag": "Sahil" },
+          { "place": "Hawaii, ABD", "user": "Deniz M.", "time": "2 gün önce", "tag": "Sahil" },
+          { "place": "Phuket, Tayland", "user": "Can D.", "time": "3 gün önce", "tag": "Sahil" }
+        ],
+        "adventure": [
+          { "place": "Kapadokya, Türkiye", "user": "Elif S.", "time": "3 saat önce", "tag": "Macera" },
+          { "place": "Nepal Trekking", "user": "Burak T.", "time": "7 saat önce", "tag": "Macera" },
+          { "place": "İsviçre Kayak", "user": "Mehmet Y.", "time": "1 gün önce", "tag": "Macera" },
+          { "place": "Safari, Kenya", "user": "Ayşe K.", "time": "1 gün önce", "tag": "Macera" },
+          { "place": "Kanyoning, İspanya", "user": "Can D.", "time": "2 gün önce", "tag": "Macera" },
+          { "place": "Kaya Tırmanışı", "user": "Zeynep A.", "time": "4 gün önce", "tag": "Macera" }
+        ]
+      },
+      "appShots": {
+        "eyebrow": "Uygulama",
+        "titleLead": "Uygulamadan",
+        "titleAccent": "görüntüler",
+        "subtitle": "Pathera mobil uygulamasından ekran görüntüleri — arayüz ve özellikler böyle görünüyor.",
+        "alts": [
+          "Pathera karşılama ekranı",
+          "Pathera giriş ekranı",
+          "Pathera kayıt ekranı",
+          "Pathera ana sayfa",
+          "Pathera sosyal akış",
+          "Pathera planlarım",
+          "Pathera mesajlar",
+          "Pathera profil"
+        ]
+      },
+      "cta": {
+        "title": "Sen de paylaşmaya hazır mısın?",
+        "subtitle": "Uygulama yayınlandığında anılarını ve rotanı toplulukla paylaş.",
+        "button": "Özellikleri keşfet"
+      }
+    },
+    "contact": {
+      "metaTitle": "İletişim",
+      "metaDescription": "Pathera iletişim — destek, iş birliği ve sosyal medya.",
+      "heroTitle": "İletişim",
+      "heroSubtitle": "Soruların, önerilerin veya iş birliği taleplerin için bize yaz.",
+      "channels": [
+        {
+          "type": "email",
+          "title": "Genel destek",
+          "body": "Uygulama, hesap veya genel soruların için bize e-posta gönder.",
+          "href": "mailto:support@pathera.net",
+          "linkLabel": "support@pathera.net"
+        },
+        {
+          "type": "press",
+          "title": "İş birliği & basın",
+          "body": "Marka ortaklığı, basın veya kurumsal iş birlikleri için iletişime geç.",
+          "href": "mailto:business@pathera.net",
+          "linkLabel": "business@pathera.net"
+        },
+        {
+          "type": "social",
+          "title": "Sosyal medya",
+          "body": "Güncellemeleri Instagram ve X üzerinden takip et.",
+          "href": null,
+          "linkLabel": "@PatheraApp"
+        }
+      ],
+      "socialLinks": {
+        "handle": "@PatheraApp",
+        "instagram": "https://www.instagram.com/PatheraApp",
+        "twitter": "https://x.com/PatheraApp"
+      },
+      "faqTitle": "Sık sorulan sorular",
+      "faq": [
+        {
+          "q": "Pathera ne zaman çıkacak?",
+          "a": "iOS ve Android sürümleri üzerinde aktif çalışıyoruz. Yakında App Store ve Google Play'de. Güncellemeler için Instagram ve X hesaplarımızı takip edebilirsin."
+        },
+        {
+          "q": "Uygulama ücretsiz mi?",
+          "a": "Temel özellikler ücretsiz olacak. Konum paylaşımı, anı akışı ve topluluk özelliklerine lansman sonrası erişebileceksin; premium detayları duyuracağız."
+        },
+        {
+          "q": "Konumumu kimler görebilir?",
+          "a": "Tamamen sen belirlersin. Konum paylaşımını açıp kapatabilir, görünürlüğünü yakın çevrenle veya seçtiğin kişilerle sınırlayabilirsin."
+        },
+        {
+          "q": "Verilerim güvende mi?",
+          "a": "Gizlilik tasarımımızın merkezinde. Profil, konum ve bildirim ayarları uygulama içinden yönetilir; ne paylaşacağına her zaman sen karar verirsin."
+        },
+        {
+          "q": "Hangi dilleri destekliyorsunuz?",
+          "a": "Pathera Türkçe ve İngilizce ile başlayacak. Web sitemiz de bu iki dili destekliyor."
+        },
+        {
+          "q": "Destek ve iş birliği için kime yazmalıyım?",
+          "a": "Genel destek için support@pathera.net, marka ve iş birlikleri için business@pathera.net adreslerini kullanabilirsin."
+        }
+      ],
+      "socialTitle": "Bizi takip et"
+    },
+    "terms": {
+      "metaTitle": "Kullanım Koşulları",
+      "metaDescription": "Pathera kullanım koşulları — hizmet kullanımı, hesap güvenliği, içerik, abonelik ve sorumluluklar.",
+      "heroTitle": "Kullanım Koşulları",
+      "heroSubtitle": "Pathera mobil uygulaması ve web sitesi için geçerli şartlar.",
+      "updatedLabel": "Son güncelleme: 3 Haziran 2026",
+      "fallback": "",
+      "fallbackLink": ""
+    },
+    "privacy": {
+      "metaTitle": "Gizlilik Politikası",
+      "metaDescription": "Pathera gizlilik politikası — kişisel verilerin toplanması, kullanımı, paylaşımı ve haklarınız.",
+      "heroTitle": "Gizlilik Politikası",
+      "heroSubtitle": "Kişisel verilerinizin nasıl işlendiğini ve korunduğunu açıklar.",
+      "updatedLabel": "Son güncelleme: 3 Haziran 2026",
+      "fallback": "",
+      "fallbackLink": ""
+    },
+    "kvkk": {
+      "metaTitle": "KVKK Aydınlatma Metni",
+      "metaDescription": "Pathera KVKK aydınlatma metni — veri sorumlusu, işleme amaçları ve başvuru hakları.",
+      "heroTitle": "KVKK Aydınlatma Metni",
+      "heroSubtitle": "6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında aydınlatma.",
+      "updatedLabel": "Son güncelleme: 3 Haziran 2026",
+      "fallback": "KVKK aydınlatma metninin tamamı şu an yalnızca Türkçe olarak sunulmaktadır.",
+      "fallbackLink": "Türkçe metni görüntüle"
+    }
+  }
+}

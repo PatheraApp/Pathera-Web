@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "title": "Pathera — Share your journey",
+    "description": "Pathera is a social travel app that lets you share your location, memories, and journeys with the people who matter to you."
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "download": "Download on the App Store",
+    "menu": "Menu"
+  },
+  "store": {
+    "soonTooltip": "Store links coming soon"
+  },
+  "hero": {
+    "eyebrow": "Social travel app",
+    "titleLead": "Share your",
+    "titleAccent": "journey.",
+    "subtitle": "Share your location, memories, and routes with Pathera. Explore the world, save your moments, and stay connected with your travel community.",
+    "ctaPrimary": "Coming soon on the App Store",
+    "ctaSecondary": "Coming soon on Google Play",
+    "badge": "Designed for travelers. Built for memories.",
+    "pills": ["Live map", "Memory feed", "Privacy controls"],
+    "screenAlt": "Pathera app preview",
+    "mockup": {
+      "brand": "PATHERA",
+      "tagline": "Plan · Share · Explore",
+      "search": "Where do you want to go?",
+      "chips": ["For you", "Popular", "Nature"],
+      "mapTitle": "World map",
+      "postPlace": "Santorini",
+      "postMeta": "2 hours ago",
+      "likes": "847",
+      "comments": "124"
+    },
+    "dualPhone": {
+      "brand": "PATHERA",
+      "tabFriends": "Friends",
+      "tabFollowing": "Following",
+      "postLeft": {
+        "place": "Bali, Indonesia",
+        "time": "Today 6:45 PM",
+        "likes": "32",
+        "comments": "7"
+      },
+      "postRight": {
+        "user": "@elaec",
+        "place": "Santorini, Greece"
+      }
+    },
+    "phone": {
+      "storyYou": "You",
+      "friends": [
+        { "name": "Mehmet", "initials": "MY" },
+        { "name": "Zeynep", "initials": "ZA" },
+        { "name": "Can", "initials": "CD" }
+      ],
+      "post": {
+        "user": "Ayşe K.",
+        "initials": "AY",
+        "place": "Santorini, Greece",
+        "time": "2h",
+        "likes": "248",
+        "comments": "32",
+        "caption": "Golden hour in Santorini 🌅"
+      }
+    }
+  },
+  "stats": [
+    { "value": "2", "label": "Languages" },
+    { "value": "∞", "label": "Routes to explore" },
+    { "value": "24/7", "label": "Share moments" },
+    { "value": "Soon", "label": "iOS & Android" }
+  ],
+  "features": {
+    "titleLead": "Everything",
+    "titleAccent": "in one place",
+    "subtitle": "From trip planning to sharing memories — Pathera is the hub for your journey.",
+    "items": [
+      {
+        "title": "Share Your Location",
+        "body": "Share your live location on the map and see where friends are at a glance."
+      },
+      {
+        "title": "Share Your Moments",
+        "body": "Share beautiful moments and inspire others with your stories."
+      },
+      {
+        "title": "Stay Connected",
+        "body": "Message, comment, and stay in touch with the people who matter — wherever you are."
+      },
+      {
+        "title": "Privacy First",
+        "body": "Your data and privacy are always protected. You decide what to share."
+      },
+      {
+        "title": "Smart Route Planning",
+        "body": "Use our AI-powered planner to build routes based on duration, interests, and budget."
+      },
+      {
+        "title": "Discover & Get Inspired",
+        "body": "Explore popular routes, find new places, and get inspired by other travelers."
+      }
+    ]
+  },
+  "explore": {
+    "titleLead": "Explore. Share.",
+    "titleAccent": "Get inspired.",
+    "body": "Pathera is more than a map — it's your story, memories, and discoveries.",
+    "cta": "Explore more",
+    "cards": [
+      { "place": "Tokyo, Japan", "user": "Ayşe K.", "time": "2 hours ago" },
+      { "place": "Swiss Alps", "user": "Mehmet Y.", "time": "5 hours ago" },
+      { "place": "New York, USA", "user": "Zeynep A.", "time": "1 day ago" },
+      { "place": "Iceland", "user": "Can D.", "time": "2 days ago" }
+    ]
+  },
+  "ctaBand": {
+    "title": "Ready for your next journey?",
+    "subtitle": "Plan your trips, share memories, and explore with the community on Pathera.",
+    "button": "Explore features"
+  },
+  "footer": {
+    "links": "Links",
+    "legal": "Legal",
+    "follow": "Follow us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "kvkk": "Personal Data Notice (KVKK)",
+    "comingSoon": "Coming soon",
+    "copyright": "© 2026 Pathera. All rights reserved."
+  },
+  "theme": { "light": "Light", "dark": "Dark" },
+  "home": {
+    "teasers": {
+      "titleLead": "Explore",
+      "titleAccent": "Pathera",
+      "items": {
+        "features": {
+          "label": "Features",
+          "title": "All in one place",
+          "body": "Location, memories, map, and privacy."
+        },
+        "about": {
+          "label": "About",
+          "title": "Who is Pathera?",
+          "body": "AI-powered trip planning and a social travel experience."
+        },
+        "gallery": {
+          "label": "Gallery",
+          "title": "Explore the world",
+          "body": "Routes shared by travelers."
+        },
+        "contact": {
+          "label": "Contact",
+          "title": "Get in touch",
+          "body": "Support and partnerships — get in touch."
+        }
+      }
+    }
+  },
+  "pages": {
+    "features": {
+      "metaTitle": "Features",
+      "metaDescription": "Pathera features — location, memories, messaging, privacy, route planning, and discovery.",
+      "heroTitle": "Features",
+      "heroSubtitle": "Powerful features that make travel more planned, more social, and more memorable.",
+      "cta": {
+        "title": "Take your travel to the next level.",
+        "subtitle": "With Pathera, every journey means more.",
+        "button": "Explore now"
+      },
+      "screens": {
+        "map": { "header": "Live Location" },
+        "memories": { "header": "Memories", "place": "Santorini, Greece" },
+        "chat": {
+          "header": "Messages",
+          "threads": [
+            { "name": "Ayşe K.", "preview": "Amazing photos!" },
+            { "name": "Mehmet Y.", "preview": "Meet tomorrow?" },
+            { "name": "Zeynep A.", "preview": "Shared the route" }
+          ]
+        },
+        "privacy": {
+          "header": "Privacy Settings",
+          "rows": [
+            { "label": "Location sharing", "on": true },
+            { "label": "Profile visibility", "on": true },
+            { "label": "Moment notifications", "on": false }
+          ]
+        },
+        "route": {
+          "header": "Plan Route",
+          "fields": ["Destination", "Duration", "Interests", "Budget"],
+          "button": "Create Route"
+        },
+        "discover": {
+          "header": "Discover",
+          "search": "Search destinations…",
+          "destinations": [
+            {
+              "name": "Swiss Alps",
+              "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&q=85"
+            },
+            {
+              "name": "Kyoto",
+              "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=300&q=85"
+            }
+          ]
+        }
+      }
+    },
+    "about": {
+      "metaTitle": "About",
+      "metaDescription": "About Pathera — AI-powered trip planning, social features, mission, and vision.",
+      "heroTitle": "About",
+      "heroSubtitle": "AI-powered trip planning and social interaction — personalized routes, discovery, and sharing.",
+      "story": {
+        "title": "About us",
+        "body": "Pathera is a next-generation mobile app that brings AI-powered trip planning and social interaction together. It lets users create personalized travel plans, discover new places, and share those experiences with others."
+      },
+      "valuesTitleLead": "Why",
+      "valuesTitleAccent": "Pathera?",
+      "values": [
+        {
+          "title": "Live location",
+          "body": "Share your live location and route on the map — see who's where at a glance."
+        },
+        {
+          "title": "Memory feed",
+          "body": "Share photos and stories; get inspired by the community and inspire others in return."
+        },
+        {
+          "title": "Messages & community",
+          "body": "Message and comment — stay connected with the people who matter throughout your trip."
+        },
+        {
+          "title": "Privacy you control",
+          "body": "You manage location, profile, and notification settings — you choose what to share and with whom."
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Our mission",
+          "body": "To make travel planning smarter, faster, and more accessible. With Pathera, users can effortlessly create trip plans with AI support while connecting with other travelers on a social platform."
+        },
+        {
+          "title": "Our vision",
+          "body": "To transform the travel experience worldwide beyond planning alone into a global community focused on sharing and interaction. For Pathera to become the standard — both as an AI-based travel assistant and as a social discovery platform for travelers."
+        },
+        {
+          "title": "Your journey starts soon",
+          "body": "Pathera is being prepared for iOS and Android. Coming soon to the App Store and Google Play — follow us on social media for updates."
+        }
+      ],
+      "stats": [
+        { "value": "2", "label": "Languages" },
+        { "value": "6+", "label": "Core features" },
+        { "value": "24/7", "label": "Share moments" },
+        { "value": "Soon", "label": "iOS & Android" }
+      ],
+      "cta": {
+        "text": "Questions? Get in touch with our team.",
+        "button": "Contact us"
+      }
+    },
+    "gallery": {
+      "metaTitle": "Gallery",
+      "metaDescription": "Pathera gallery — routes, memories, and destinations shared by travelers.",
+      "heroTitle": "Gallery",
+      "heroSubtitle": "Moments shared by travelers around the world — explore, get inspired, and plan your next route.",
+      "filterKeys": ["all", "nature", "city", "coast", "adventure"],
+      "filters": ["All", "Nature", "City", "Coast", "Adventure"],
+      "categories": {
+        "nature": [
+          { "place": "Swiss Alps", "user": "Mehmet Y.", "time": "2 hours ago", "tag": "Nature" },
+          { "place": "Norwegian Fjords", "user": "Ayşe K.", "time": "4 hours ago", "tag": "Nature" },
+          { "place": "Iceland", "user": "Burak T.", "time": "1 day ago", "tag": "Nature" },
+          { "place": "Yosemite, USA", "user": "Can D.", "time": "1 day ago", "tag": "Nature" },
+          { "place": "Patagonia", "user": "Elif S.", "time": "2 days ago", "tag": "Nature" },
+          { "place": "Seven Lakes", "user": "Deniz M.", "time": "3 days ago", "tag": "Nature" }
+        ],
+        "city": [
+          { "place": "Tokyo, Japan", "user": "Ayşe K.", "time": "1 hour ago", "tag": "City" },
+          { "place": "New York, USA", "user": "Zeynep A.", "time": "3 hours ago", "tag": "City" },
+          { "place": "Paris, France", "user": "Mehmet Y.", "time": "5 hours ago", "tag": "City" },
+          { "place": "Istanbul", "user": "Selin A.", "time": "8 hours ago", "tag": "City" },
+          { "place": "Dubai, UAE", "user": "Can D.", "time": "1 day ago", "tag": "City" },
+          { "place": "Singapore", "user": "Burak T.", "time": "2 days ago", "tag": "City" }
+        ],
+        "coast": [
+          { "place": "Santorini, Greece", "user": "Zeynep A.", "time": "2 hours ago", "tag": "Coast" },
+          { "place": "Bali, Indonesia", "user": "Selin A.", "time": "6 hours ago", "tag": "Coast" },
+          { "place": "Maldives", "user": "Ayşe K.", "time": "12 hours ago", "tag": "Coast" },
+          { "place": "Amalfi, Italy", "user": "Mehmet Y.", "time": "1 day ago", "tag": "Coast" },
+          { "place": "Hawaii, USA", "user": "Deniz M.", "time": "2 days ago", "tag": "Coast" },
+          { "place": "Phuket, Thailand", "user": "Can D.", "time": "3 days ago", "tag": "Coast" }
+        ],
+        "adventure": [
+          { "place": "Cappadocia, Turkey", "user": "Elif S.", "time": "3 hours ago", "tag": "Adventure" },
+          { "place": "Nepal Trekking", "user": "Burak T.", "time": "7 hours ago", "tag": "Adventure" },
+          { "place": "Swiss Skiing", "user": "Mehmet Y.", "time": "1 day ago", "tag": "Adventure" },
+          { "place": "Safari, Kenya", "user": "Ayşe K.", "time": "1 day ago", "tag": "Adventure" },
+          { "place": "Canyoning, Spain", "user": "Can D.", "time": "2 days ago", "tag": "Adventure" },
+          { "place": "Rock Climbing", "user": "Zeynep A.", "time": "4 days ago", "tag": "Adventure" }
+        ]
+      },
+      "appShots": {
+        "eyebrow": "The app",
+        "titleLead": "From the",
+        "titleAccent": "app",
+        "subtitle": "Screenshots from the Pathera mobile app — see the interface and features in action.",
+        "alts": [
+          "Pathera welcome screen",
+          "Pathera sign-in screen",
+          "Pathera sign-up screen",
+          "Pathera home screen",
+          "Pathera social feed",
+          "Pathera my plans",
+          "Pathera messages",
+          "Pathera profile"
+        ]
+      },
+      "cta": {
+        "title": "Ready to share your journey?",
+        "subtitle": "When the app launches, share your routes and memories with the community.",
+        "button": "Explore features"
+      }
+    },
+    "contact": {
+      "metaTitle": "Contact",
+      "metaDescription": "Contact Pathera — support, partnerships, and social media.",
+      "heroTitle": "Contact",
+      "heroSubtitle": "Questions, feedback, or partnership requests — we'd love to hear from you.",
+      "channels": [
+        {
+          "type": "email",
+          "title": "General support",
+          "body": "Email us about the app, your account, or general questions.",
+          "href": "mailto:support@pathera.net",
+          "linkLabel": "support@pathera.net"
+        },
+        {
+          "type": "press",
+          "title": "Partnerships & press",
+          "body": "Brand partnerships, press, or business inquiries.",
+          "href": "mailto:business@pathera.net",
+          "linkLabel": "business@pathera.net"
+        },
+        {
+          "type": "social",
+          "title": "Social media",
+          "body": "Follow us on Instagram and X for updates.",
+          "href": null,
+          "linkLabel": "@PatheraApp"
+        }
+      ],
+      "socialLinks": {
+        "handle": "@PatheraApp",
+        "instagram": "https://www.instagram.com/PatheraApp",
+        "twitter": "https://x.com/PatheraApp"
+      },
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "q": "When will Pathera launch?",
+          "a": "We're actively building for iOS and Android. Coming soon to the App Store and Google Play. Follow us on Instagram and X for launch updates."
+        },
+        {
+          "q": "Is the app free?",
+          "a": "Core features will be free. You'll have access to location sharing, the memory feed, and community features after launch; we'll announce premium details separately."
+        },
+        {
+          "q": "Who can see my location?",
+          "a": "You decide entirely. You can turn location sharing on or off and limit visibility to your circle or selected people."
+        },
+        {
+          "q": "Is my data safe?",
+          "a": "Privacy is at the heart of our design. Profile, location, and notification settings are managed in the app — you always choose what to share."
+        },
+        {
+          "q": "Which languages are supported?",
+          "a": "Pathera will launch in Turkish and English. This website supports both languages."
+        },
+        {
+          "q": "Who should I contact for support or partnerships?",
+          "a": "Use support@pathera.net for general support and business@pathera.net for brand or business inquiries."
+        }
+      ],
+      "socialTitle": "Follow us"
+    },
+    "terms": {
+      "metaTitle": "Terms of Use",
+      "metaDescription": "Pathera terms of use — service use, account security, content, subscriptions, and liability.",
+      "heroTitle": "Terms of Use",
+      "heroSubtitle": "Terms that apply to the Pathera mobile app and website.",
+      "updatedLabel": "Last updated: 3 June 2026",
+      "fallback": "",
+      "fallbackLink": ""
+    },
+    "privacy": {
+      "metaTitle": "Privacy Policy",
+      "metaDescription": "Pathera privacy policy — how we collect, use, share, and protect your personal data.",
+      "heroTitle": "Privacy Policy",
+      "heroSubtitle": "How your personal data is collected, processed, and protected.",
+      "updatedLabel": "Last updated: 3 June 2026",
+      "fallback": "",
+      "fallbackLink": ""
+    },
+    "kvkk": {
+      "metaTitle": "Personal Data Notice (KVKK)",
+      "metaDescription": "Pathera notice under Turkish Law No. 6698 — data controller, processing purposes, and your rights.",
+      "heroTitle": "Personal Data Notice (KVKK)",
+      "heroSubtitle": "Information under Turkey's Law No. 6698 on the Protection of Personal Data.",
+      "updatedLabel": "Last updated: 3 June 2026",
+      "fallback": "",
+      "fallbackLink": ""
+    }
+  }
+}

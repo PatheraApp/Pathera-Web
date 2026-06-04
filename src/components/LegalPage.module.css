@@ -1,0 +1,118 @@
+.body {
+  padding-bottom: clamp(80px, 12vw, 120px);
+  background: var(--bg);
+}
+
+.prose {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.updated {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 28px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.intro p {
+  font-size: var(--text-lg);
+  line-height: 1.75;
+  color: var(--text);
+}
+
+.section {
+  margin-bottom: 36px;
+}
+
+.section h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.subsection {
+  margin-top: 22px;
+  padding-left: 0;
+}
+
+.subsection h3 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: var(--text-sm);
+  line-height: 1.72;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+.section ul {
+  margin: 8px 0 14px;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section li {
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+.section li::marker {
+  color: var(--accent);
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactList a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contactList a:hover {
+  text-decoration: underline;
+}
+
+.fallback {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 48px 24px;
+  border-radius: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+}
+
+.fallback p {
+  margin-bottom: 24px;
+  line-height: 1.65;
+  color: var(--text-muted);
+}

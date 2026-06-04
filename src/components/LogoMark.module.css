@@ -1,0 +1,6 @@
+.mark {
+  flex-shrink: 0;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}

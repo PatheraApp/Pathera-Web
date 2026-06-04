@@ -1,0 +1,48 @@
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 32px;
+  margin-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.lang {
+  display: flex;
+  gap: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.lang a {
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: var(--text-muted);
+  border: 1px solid transparent;
+}
+
+.lang a:hover {
+  color: var(--text);
+}
+
+.active {
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+  background: var(--accent-soft);
+}
+
+.themeBtn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.themeBtn:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
