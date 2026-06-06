@@ -10,6 +10,11 @@ type Props = {
   delay?: number;
 };
 
+function isInViewport(el: HTMLElement): boolean {
+  const rect = el.getBoundingClientRect();
+  return rect.top < window.innerHeight * 0.92 && rect.bottom > 0;
+}
+
 export default function ScrollReveal({ children, className, delay = 0 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const [on, setOn] = useState(false);
@@ -17,6 +22,11 @@ export default function ScrollReveal({ children, className, delay = 0 }: Props) 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+
+    if (isInViewport(el)) {
+      setOn(true);
+      return;
+    }
 
     const io = new IntersectionObserver(
       ([entry]) => {

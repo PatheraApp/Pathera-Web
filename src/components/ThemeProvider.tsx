@@ -2,6 +2,7 @@
 
 import { createContext, useCallback, useContext, useState } from 'react';
 
+import { THEME_COOKIE } from '@/lib/theme-cookie';
 import type { ThemeMode } from '@/lib/theme';
 
 type Ctx = {
@@ -12,24 +13,23 @@ type Ctx = {
 
 const ThemeContext = createContext<Ctx | null>(null);
 
-function getInitialTheme(): ThemeMode {
-  if (typeof window === 'undefined') return 'dark';
-  try {
-    const stored = localStorage.getItem('pathera-theme');
-    if (stored === 'light' || stored === 'dark') return stored;
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  } catch {
-    return 'dark';
-  }
+function persistTheme(t: ThemeMode) {
+  document.documentElement.setAttribute('data-theme', t);
+  localStorage.setItem(THEME_COOKIE, t);
+  document.cookie = `${THEME_COOKIE}=${t};path=/;max-age=31536000;SameSite=Lax`;
 }
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setThemeState] = useState<ThemeMode>(getInitialTheme);
+type Props = {
+  children: React.ReactNode;
+  initialTheme: ThemeMode;
+};
+
+export function ThemeProvider({ children, initialTheme }: Props) {
+  const [theme, setThemeState] = useState<ThemeMode>(initialTheme);
 
   const setTheme = useCallback((t: ThemeMode) => {
     setThemeState(t);
-    document.documentElement.setAttribute('data-theme', t);
-    localStorage.setItem('pathera-theme', t);
+    persistTheme(t);
   }, []);
 
   const toggle = useCallback(() => {

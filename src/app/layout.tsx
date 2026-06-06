@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
+import { cookies } from 'next/headers';
 import { DM_Sans, Playfair_Display } from 'next/font/google';
 
 import { ThemeProvider } from '@/components/ThemeProvider';
+import { parseThemeCookie, THEME_COOKIE, themeCookieScript } from '@/lib/theme-cookie';
+import type { ThemeMode } from '@/lib/theme';
 
 import './globals.css';
 
@@ -15,6 +18,9 @@ const serif = Playfair_Display({
   subsets: ['latin', 'latin-ext'],
   style: ['italic', 'normal'],
 });
+
+const HERO_BG =
+  'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2400&q=90';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://pathera.net'),
@@ -46,18 +52,23 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const cookieStore = await cookies();
+  const stored = parseThemeCookie(cookieStore.get(THEME_COOKIE)?.value);
+  const initialTheme: ThemeMode = stored ?? 'dark';
+
   return (
-    <html lang="tr" suppressHydrationWarning>
+    <html lang="tr" data-theme={initialTheme} suppressHydrationWarning>
       <head>
+        <link rel="preload" as="image" href={HERO_BG} />
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('pathera-theme');var d=t||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',d);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();`,
+            __html: themeCookieScript(),
           }}
         />
       </head>
       <body className={`${sans.variable} ${serif.variable}`}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider initialTheme={initialTheme}>{children}</ThemeProvider>
       </body>
     </html>
   );
