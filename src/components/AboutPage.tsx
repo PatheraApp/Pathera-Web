@@ -21,13 +21,6 @@ export default function AboutPage({ locale, t }: Props) {
       <div className={styles.body}>
         <div className="container">
           <ScrollReveal>
-            <section className={styles.story}>
-              <h2 className={styles.storyTitle}>{page.story.title}</h2>
-              <p className={styles.storyBody}>{page.story.body}</p>
-            </section>
-          </ScrollReveal>
-
-          <ScrollReveal>
             <h2 className={styles.sectionTitle}>
               {page.valuesTitleLead}{' '}
               <span className="serif-accent">{page.valuesTitleAccent}</span>

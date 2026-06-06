@@ -150,7 +150,7 @@
         "about": {
           "label": "Hakkımızda",
           "title": "Pathera kimdir?",
-          "body": "Yapay zeka destekli tatil planlama ve sosyal seyahat deneyimi."
+          "body": "Yapay zekâ destekli tatil planlama ve sosyal seyahat deneyimi."
         },
         "gallery": {
           "label": "Galeri",
@@ -218,13 +218,9 @@
     },
     "about": {
       "metaTitle": "Hakkımızda",
-      "metaDescription": "Pathera hakkında — yapay zeka destekli tatil planlama, sosyal etkileşim, misyon ve vizyon.",
+      "metaDescription": "Pathera hakkında — yapay zekâ destekli tatil planlama, sosyal etkileşim, misyon ve vizyon.",
       "heroTitle": "Hakkımızda",
-      "heroSubtitle": "Yapay zeka destekli tatil planlama ve sosyal etkileşim — kişiselleştirilmiş rotalar, keşif ve paylaşım.",
-      "story": {
-        "title": "Hakkımızda",
-        "body": "Pathera, yapay zeka destekli tatil planlama ve sosyal etkileşim deneyimini bir araya getiren yeni nesil bir mobil uygulamadır. Kullanıcıların kişiselleştirilmiş seyahat planları oluşturmasına, keşifler yapmasına ve bu deneyimleri diğer kullanıcılarla paylaşmasına olanak tanır."
-      },
+      "heroSubtitle": "Pathera, yapay zekâ destekli tatil planlama ve sosyal etkileşim deneyimini bir araya getiren yeni nesil bir mobil uygulamadır. Kullanıcıların kişiselleştirilmiş seyahat planları oluşturmasına, yeni yerler keşfetmesine ve bu deneyimleri diğer kullanıcılarla paylaşmasına olanak tanır.",
       "valuesTitleLead": "Neden",
       "valuesTitleAccent": "Pathera?",
       "values": [
@@ -248,11 +244,11 @@
       "blocks": [
         {
           "title": "Misyonumuz",
-          "body": "Seyahat planlamayı daha akıllı, hızlı ve erişilebilir hale getirmek. Pathera ile kullanıcıların yapay zeka desteğiyle zahmetsizce tatil planları oluşturmasını ve aynı zamanda sosyal bir platform üzerinden diğer gezginlerle etkileşime geçmesini sağlamak."
+          "body": "Seyahat planlamasını daha akıllı, hızlı ve erişilebilir hale getirmek. Pathera ile kullanıcıların yapay zekâ desteğiyle zahmetsizce tatil planları oluşturmasını ve aynı zamanda sosyal bir platform üzerinden diğer gezginlerle etkileşime geçmesini sağlamak."
         },
         {
           "title": "Vizyonumuz",
-          "body": "Dünyada seyahat deneyimini sadece planlama aşamasından çıkarıp, paylaşım ve etkileşim odaklı küresel bir topluluk haline getirmek. Pathera'nın hem yapay zeka tabanlı seyahat asistanı hem de gezginler için sosyal bir keşif platformu olarak standart haline gelmesi."
+          "body": "Dünyada seyahat deneyimini yalnızca planlama aşamasından çıkarıp paylaşım ve etkileşim odaklı küresel bir topluluk hâline getirmek. Pathera'nın hem yapay zekâ tabanlı seyahat asistanı hem de gezginler için sosyal bir keşif platformu olarak standart hâline gelmesi."
         },
         {
           "title": "Yolculuğun başlıyor",
@@ -280,7 +276,7 @@
       "categories": {
         "nature": [
           { "place": "İsviçre Alpleri", "user": "Mehmet Y.", "time": "2 saat önce", "tag": "Doğa" },
-          { "place": "Norveç Fiyordları", "user": "Ayşe K.", "time": "4 saat önce", "tag": "Doğa" },
+          { "place": "Norveç Fiyortları", "user": "Ayşe K.", "time": "4 saat önce", "tag": "Doğa" },
           { "place": "İzlanda", "user": "Burak T.", "time": "1 gün önce", "tag": "Doğa" },
           { "place": "Yosemite, ABD", "user": "Can D.", "time": "1 gün önce", "tag": "Doğa" },
           { "place": "Patagonya", "user": "Elif S.", "time": "2 gün önce", "tag": "Doğa" },
@@ -366,7 +362,7 @@
         "instagram": "https://www.instagram.com/PatheraApp",
         "twitter": "https://x.com/PatheraApp"
       },
-      "faqTitle": "Sık sorulan sorular",
+      "faqTitle": "Sıkça sorulan sorular",
       "faq": [
         {
           "q": "Pathera ne zaman çıkacak?",

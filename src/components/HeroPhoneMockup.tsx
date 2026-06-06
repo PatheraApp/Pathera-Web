@@ -57,7 +57,7 @@ export default function HeroPhoneMockup({ badge, ui }: Props) {
 
                   <div className={styles.stories}>
                     <span className={styles.storyAdd}>+</span>
-                    {STORIES.map((color, i) => (
+                    {STORIES.map((color) => (
                       <span
                         key={color}
                         className={styles.storyRing}

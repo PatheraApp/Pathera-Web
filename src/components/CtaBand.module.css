@@ -52,6 +52,6 @@
 
 [data-theme='light'] .btn {
   background: #1a1610 !important;
-  color: #d4d6cb !important;
+  color: var(--bg-card) !important;
   box-shadow: 0 8px 24px rgba(26, 22, 16, 0.18);
 }

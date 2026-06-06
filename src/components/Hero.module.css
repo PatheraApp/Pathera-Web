@@ -24,8 +24,8 @@
 }
 
 :global([data-theme='light']) .bg {
-  filter: saturate(0.42) brightness(1.06) contrast(0.92);
-  opacity: 0.88;
+  filter: saturate(0.36) brightness(0.96) contrast(0.88);
+  opacity: 0.72;
 }
 
 .bg {

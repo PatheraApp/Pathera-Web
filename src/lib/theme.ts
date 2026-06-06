@@ -2,9 +2,9 @@
 export const PATHERA = {
   olive: '#434f33',
   sage: '#8e914d',
-  cream: '#d4d6cb',
-  creamSoft: '#c8cac0',
-  creamCard: '#dddfd4',
+  cream: '#b8bdb0',
+  creamSoft: '#adb2a5',
+  creamCard: '#c3c8bb',
   text: '#2a2e24',
   muted: '#6b6f5c',
 } as const;

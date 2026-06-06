@@ -224,12 +224,13 @@
   box-shadow:
     0 16px 40px rgba(0, 0, 0, 0.22),
     0 0 0 1px rgba(255, 255, 255, 0.04);
-  background: #f5f3e9;
+  background: var(--bg-soft);
 }
 
 [data-theme='light'] .appPhoneImg {
-  box-shadow: var(--shadow-lg);
-  border-color: rgba(67, 79, 51, 0.22);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(67, 79, 51, 0.2);
+  background: var(--bg-soft);
 }
 
 .cta {

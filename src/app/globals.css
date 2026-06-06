@@ -71,36 +71,36 @@ img {
     radial-gradient(ellipse 60% 40% at 10% 80%, rgba(67, 79, 51, 0.12), transparent);
 }
 
-/* —— Light (mat taş yeşil-gri, düz yüzey — mesh yok) —— */
+/* —— Light (yumuşak taş yeşil-gri — göz yormayan, mesh yok) —— */
 [data-theme='light'] {
-  --bg: #d4d6cb;
-  --bg-soft: #c8cac0;
-  --bg-card: #dddfd4;
-  --bg-card-hover: #d0d2c8;
-  --border: rgba(67, 79, 51, 0.14);
-  --border-strong: rgba(67, 79, 51, 0.38);
-  --text: #252820;
-  --text-secondary: #3d4530;
-  --text-muted: #5c6054;
+  --bg: #b8bdb0;
+  --bg-soft: #adb2a5;
+  --bg-card: #c3c8bb;
+  --bg-card-hover: #b0b5a8;
+  --border: rgba(67, 79, 51, 0.16);
+  --border-strong: rgba(67, 79, 51, 0.34);
+  --text: #2a2e24;
+  --text-secondary: #3a4034;
+  --text-muted: #565a50;
   --accent: #434f33;
   --accent-deep: #343f28;
-  --accent-glow: rgba(67, 79, 51, 0.14);
-  --accent-soft: rgba(142, 145, 77, 0.12);
+  --accent-glow: rgba(67, 79, 51, 0.12);
+  --accent-soft: rgba(67, 79, 51, 0.1);
   --hero-overlay: linear-gradient(
     90deg,
-    #d4d6cb 0%,
-    rgba(212, 214, 203, 0.97) 22%,
-    rgba(212, 214, 203, 0.84) 40%,
-    rgba(212, 214, 203, 0.58) 58%,
-    rgba(212, 214, 203, 0.3) 76%,
-    rgba(212, 214, 203, 0.1) 100%
+    #b8bdb0 0%,
+    rgba(184, 189, 176, 0.96) 24%,
+    rgba(184, 189, 176, 0.82) 42%,
+    rgba(184, 189, 176, 0.54) 62%,
+    rgba(184, 189, 176, 0.26) 80%,
+    rgba(184, 189, 176, 0.06) 100%
   );
-  --header-bg: rgba(212, 214, 203, 0.92);
+  --header-bg: rgba(184, 189, 176, 0.94);
   --gold-gradient: linear-gradient(135deg, #434f33 0%, #8e914d 52%, #9aa358 100%);
   --mesh: none;
-  --shadow-sm: 0 4px 14px rgba(36, 38, 32, 0.08);
-  --shadow-md: 0 10px 32px rgba(36, 38, 32, 0.1);
-  --shadow-lg: 0 18px 44px rgba(36, 38, 32, 0.12);
+  --shadow-sm: 0 4px 14px rgba(36, 38, 32, 0.06);
+  --shadow-md: 0 10px 32px rgba(36, 38, 32, 0.08);
+  --shadow-lg: 0 18px 44px rgba(36, 38, 32, 0.1);
   color-scheme: light;
 }
 
@@ -124,8 +124,8 @@ img {
 }
 
 [data-theme='light'] .pill {
-  background: var(--accent-soft);
-  border-color: rgba(67, 79, 51, 0.18);
+  background: rgba(67, 79, 51, 0.08);
+  border-color: rgba(67, 79, 51, 0.2);
   color: var(--text-secondary);
 }
 

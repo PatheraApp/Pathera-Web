@@ -180,7 +180,7 @@
           "header": "Messages",
           "threads": [
             { "name": "Ayşe K.", "preview": "Amazing photos!" },
-            { "name": "Mehmet Y.", "preview": "Meet tomorrow?" },
+            { "name": "Mehmet Y.", "preview": "Want to meet tomorrow?" },
             { "name": "Zeynep A.", "preview": "Shared the route" }
           ]
         },
@@ -217,11 +217,7 @@
       "metaTitle": "About",
       "metaDescription": "About Pathera — AI-powered trip planning, social features, mission, and vision.",
       "heroTitle": "About",
-      "heroSubtitle": "AI-powered trip planning and social interaction — personalized routes, discovery, and sharing.",
-      "story": {
-        "title": "About us",
-        "body": "Pathera is a next-generation mobile app that brings AI-powered trip planning and social interaction together. It lets users create personalized travel plans, discover new places, and share those experiences with others."
-      },
+      "heroSubtitle": "Pathera is a next-generation mobile app that brings AI-powered trip planning and social interaction together. It lets users create personalized travel plans, discover new places, and share those experiences with others.",
       "valuesTitleLead": "Why",
       "valuesTitleAccent": "Pathera?",
       "values": [
@@ -249,7 +245,7 @@
         },
         {
           "title": "Our vision",
-          "body": "To transform the travel experience worldwide beyond planning alone into a global community focused on sharing and interaction. For Pathera to become the standard — both as an AI-based travel assistant and as a social discovery platform for travelers."
+          "body": "To transform the travel experience worldwide beyond planning alone into a global community focused on sharing and interaction. Our goal is for Pathera to become the standard — both as an AI-powered travel assistant and as a social discovery platform for travelers."
         },
         {
           "title": "Your journey starts soon",
